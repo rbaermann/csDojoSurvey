@@ -1,0 +1,27 @@
+{
+  "FilePath": "/media/thethup/KINGSTON/coding/coding-dojo/c#/aspMvc/dojoSurveyy/dojoSurveyy.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": null,
+  "RootNamespace": "dojoSurveyy",
+  "Documents": [
+    {
+      "FilePath": "Views/Home/Index.cshtml",
+      "TargetPath": "Views/Home/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/Info.cshtml",
+      "TargetPath": "Views/Home/Info.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.1"
+}

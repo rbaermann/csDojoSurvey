@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.info {
+    border: 2px solid black;
+    position: relative;
+    width: 500px;
+    height: 390px;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+
+.submittedInfo, .name, .location, .language, .comment, .submittedName, .submittedLocation, .submittedLanguage, .submittedComment, .goBack {
+    margin: 20px;
+    position: absolute;
+}
+
+.name, .location, .language, .comment {
+    left: 0;
+}
+
+.submittedName, .submittedLocation, .submittedLanguage, .submittedComment {
+    right: 0;
+}
+
+.submittedInfo {
+    text-decoration: underline;
+}
+
+.submittedName {
+    top: 70px;
+}
+
+.name {
+    top: 70px;
+}
+
+.submittedLocation {
+    top: 115px;
+}
+
+.location {
+    top: 115px
+}
+
+.submittedLanguage {
+    top: 160px;
+}
+
+.language {
+    top: 160px;
+}
+
+.comment {
+    top: 215px;
+}
+
+.submittedComment {
+    top: 215px;
+    width: 350px;
+    height: 80px;
+    overflow: scroll;
+}
+
+.goBack {
+    top: 315px;
+    right: 2px;
+    border-radius: 0;
+    padding: 5px 15px;
+    color: white;
+    background-color: #2B78E4;
+    box-shadow: 2px 2px black;
+}

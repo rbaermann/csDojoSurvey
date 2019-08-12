@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.survey {
+    border: 2px solid black;
+    position: relative;
+    width: 500px;
+    height: 390px;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+
+.name, .location, .language, .comment, .inputName, .inputLocation, .inputLanguage, .inputComment, .submit {
+    margin: 20px;
+    position: absolute;
+}
+
+.name, .location, .language, .comment, .inputComment {
+    left: 0;
+}
+
+.inputName, .inputLocation, .inputLanguage {
+    right: 0;
+}
+
+.inputName {
+    top: 0;
+}
+
+.name {
+    top: 10px;
+}
+
+.inputLocation {
+    top: 45px;
+}
+
+.location {
+    top: 55px
+}
+
+.inputLanguage {
+    top: 90px;
+}
+
+.language {
+    top: 100px;
+}
+
+.comment {
+    top: 145px;
+}
+
+.inputComment {
+    top: 190px;
+    width: 450px;
+    height: 100px;
+}
+
+.submit {
+    top: 315px;
+    right: 2px;
+    border-radius: 0;
+    padding: 5px 15px;
+    color: white;
+    background-color: #2B78E4;
+    box-shadow: 2px 2px black;
+}

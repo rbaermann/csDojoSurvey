@@ -1,3 +1,7 @@
+@using dojoSurveyy.Models
+@model Survey
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,13 +16,13 @@
         <h1 class="submittedInfo">Submitted Info</h1>
         @{
             <p class="name">Name:</p>
-            <p class="submittedName">@ViewBag.Name</p>
+            <p class="submittedName">@Model.Name</p>
             <p class="location">Dojo Location:</p>
-            <p class="submittedLocation">@ViewBag.Location</p>
+            <p class="submittedLocation">@Model.Location</p>
             <p class="language">Favorite Language:</p>
-            <p class="submittedLanguage">@ViewBag.Language</p>
+            <p class="submittedLanguage">@Model.Language</p>
             <p class="comment">Comment:</p>
-            <p class="submittedComment">@ViewBag.Comment</p>
+            <p class="submittedComment">@Model.Comment</p>
         }
         <a class="goBack" href="/">Go Back</a>
     </div>

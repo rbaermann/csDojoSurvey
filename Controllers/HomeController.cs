@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using dojoSurveyy.Models;
 
 namespace dojoSurveyy
 {
@@ -11,14 +12,9 @@ namespace dojoSurveyy
         }
 
         [HttpPost("result")]
-        public IActionResult Info(string Name, string Location, string Language, string Comment)
+        public IActionResult Info(Survey userSurvey)
         {
-            ViewBag.Name = Name;
-            ViewBag.Location = Location;
-            ViewBag.Language = Language;
-            ViewBag.Comment = Comment;
-
-            return View("Info");
+            return View("Info", userSurvey);
         }
     }
 }

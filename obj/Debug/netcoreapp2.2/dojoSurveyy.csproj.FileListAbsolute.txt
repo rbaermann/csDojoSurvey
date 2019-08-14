@@ -22,3 +22,5 @@
 /media/thethup/KINGSTON/coding/coding-dojo/c#/aspMvc/dojoSurveyy/obj/Debug/netcoreapp2.2/dojoSurveyy.pdb
 /media/thethup/KINGSTON/coding/coding-dojo/c#/aspMvc/dojoSurveyy/obj/Debug/netcoreapp2.2/dojoSurveyy.csproj.CopyComplete
 /media/thethup/KINGSTON/coding/coding-dojo/c#/aspMvc/dojoSurveyy/obj/Debug/netcoreapp2.2/Razor/Views/Home/Info.g.cshtml.cs
+/media/thethup/KINGSTON/coding/coding-dojo/c#/aspMvc/dojoSurveyy/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/media/thethup/KINGSTON/coding/coding-dojo/c#/aspMvc/dojoSurveyy/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
